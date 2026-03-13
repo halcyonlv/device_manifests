@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Samsung Galaxy A52 4G (a52q) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_xiaomi_sm7125-common" path="device/xiaomi/sm7125-common" remote="halcyon-device" />
+    <project name="device_xiaomi_a52q" path="device/xiaomi/a52q" remote="halcyon-device" />
+    <project name="kernel_xiaomi_sm7125" path="kernel/xiaomi/sm7125" remote="halcyon-device" />
+    <project name="vendor_xiaomi_sm7125-common" path="vendor/xiaomi/sm7125-common" remote="halcyon-blobs" />
+    <project name="vendor_xiaomi_a52q" path="vendor/xiaomi/a52q" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="frstprjkt/hardware_samsung" path="hardware/samsung" remote="github" revision="16.2" />
+    <project name="frstprjkt/hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="github" revision="16.2" />
+</manifest>
