@@ -18,11 +18,8 @@
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
 
-    <!-- Temp: Remove Stock FM Radio from LOS -->
-    <remove-project name="packages/apps/FMRadio"/>
     <!-- Temp: Add Revamped FM Radio -->
     <!-- If herobuxx approved this, all of this externals will be gone -->
-    <remote name="iusmac" fetch="https://github.com/iusmac" revision="mtk" />
-    <project path="packages/apps/RevampedFMRadio" name="RevampedFMRadio" remote="iusmac" />
+    <project name="TracenPlayground/packages_apps_RevampedFMRadio" path="packages/apps/RevampedFMRadio" remote="github" revision="mtk" />
 
 </manifest>
