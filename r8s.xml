@@ -1,43 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="los"
-            fetch="https://github.com/LineageOS"
-            revision="lineage-23.2" />
+    <!-- Samsung galaxy S20 FE (r8s) Device Manifest for Halcyon 16.2-->
 
-    <remote name="halcyon-selfhost"
-            fetch="https://git.hlcyn.org"
-            revision="16.2" />
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project path="device/samsung/r8s" name="device_samsung_r8s" remote="halcyon-device" />
+    <project path="device/samsung/universal9830-common" name="device_samsung_universal9830-common" remote="halcyon-device" />
+    <project path="kernel/samsung/universal9830" name="kernel_samsung_universal9830" remote="halcyon-device" />
+    <project path="vendor/samsung/r8s" name="vendor_samsung_r8s" remote="halcyon-blobs" />
+    <project path="vendor/samsung/universal9830-common" name="vendor_samsung_universal9830-common" remote="halcyon-blobs" />
 
-    <!-- device/ -->
-        <!-- samsung/ -->
-        <project path="device/samsung/r8s" name="halcyonlv/device_samsung_r8s" remote="github" revision="16.2" />
-        <project path="device/samsung/universal9830-common" name="halcyonlv/device_samsung_universal9830-common" remote="github" revision="16.2" />
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="lineage" />
+    <project path="hardware/samsung" name="hardware_samsung" remote="halcyon" revision="16.2" />
+    <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="lineage" />
+    <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="lineage" />
+    <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="lineage" />
+    <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="lineage" />
+    <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="lineage" />
+    <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="lineage" />
+    <project path="hardware/samsung_slsi/nfc" name="hardware_samsung_slsi_nfc" remote="halcyon" />
 
-        <!-- samsung_slsi/ -->
-        <project path="device/samsung_slsi/sepolicy" name="android_device_samsung_slsi_sepolicy" remote="los" />
-
-    <!-- hardware/ -->
-        <!-- samsung/ -->
-        <project path="hardware/samsung" name="hardware_samsung" remote="halcyon" revision="16.2" />
-
-        <!-- samsung_slsi/ -->
-        <project path="hardware/samsung_slsi/nfc" name="hardware_samsung_slsi_nfc" remote="halcyon" revision="16.2" />
-
-        <!-- samsung_slsi-linaro/ -->
-        <project path="hardware/samsung_slsi-linaro/config" name="android_hardware_samsung_slsi-linaro_config" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/openmax" name="android_hardware_samsung_slsi-linaro_openmax" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/interfaces" name="android_hardware_samsung_slsi-linaro_interfaces" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/graphics" name="android_hardware_samsung_slsi-linaro_graphics" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/exynos5" name="android_hardware_samsung_slsi-linaro_exynos5" remote="los" />
-        <project path="hardware/samsung_slsi-linaro/exynos" name="android_hardware_samsung_slsi-linaro_exynos" remote="los" />
-
-    <!-- kernel/ -->
-        <!-- samsung -->
-        <project path="kernel/samsung/universal9830" name="halcyonlv/kernel_samsung_universal9830" remote="github" revision="16.2" />
-
-    <!-- vendor/ -->
-        <!-- samsung/ -->
-        <project path="vendor/samsung/r8s" name="halcyonlv/vendor_samsung_r8s" remote="halcyon-selfhost" />
-        <project path="vendor/samsung/universal9830-common" name="halcyonlv/vendor_samsung_universal9830-common" remote="halcyon-selfhost" />
 </manifest>
-

@@ -11,8 +11,8 @@
     <!-- Misc Dependencies -->
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
-    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" revision="16.2" />
-    <project name="hardware_mediatek" path="hardware/mediatek" remote="halcyon" revision="16.2" />
-    <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" revision="16.2" />
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
+    <project name="hardware_mediatek" path="hardware/mediatek" remote="halcyon" />
+    <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" />
     <project name="vendor_mediatek_ims" path="vendor/mediatek/ims" remote="halcyon-blobs" />
 </manifest>

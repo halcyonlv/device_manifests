@@ -4,15 +4,15 @@
 
     <!-- Device core repos -->
     <!-- Must be pushed into Halcyon organisation without exception -->
-    <project name="device_xiaomi_peridot" path="device/xiaomi/peridot" remote="halcyon-device" revision="16.2" />
-    <project name="device_xiaomi_peridot-miuicamera" path="device/xiaomi/peridot-miuicamera" remote="halcyon-device" revision="16.2" />
+    <project name="device_xiaomi_peridot" path="device/xiaomi/peridot" remote="halcyon-device" />
+    <project name="device_xiaomi_peridot-miuicamera" path="device/xiaomi/peridot-miuicamera" remote="halcyon-device" />
 
-    <project name="kernel_xiaomi_sm8635" path="kernel/xiaomi/sm8635" remote="halcyon-device" revision="16.2" />
-    <project name="kernel_xiaomi_sm8635-modules" path="kernel/xiaomi/sm8635-modules" remote="halcyon-device" revision="16.2" />
-    <project name="kernel_xiaomi_sm8635-devicetrees" path="kernel/xiaomi/sm8635-devicetrees" remote="halcyon-device" revision="16.2" />
+    <project name="kernel_xiaomi_sm8635" path="kernel/xiaomi/sm8635" remote="halcyon-device" />
+    <project name="kernel_xiaomi_sm8635-modules" path="kernel/xiaomi/sm8635-modules" remote="halcyon-device" />
+    <project name="kernel_xiaomi_sm8635-devicetrees" path="kernel/xiaomi/sm8635-devicetrees" remote="halcyon-device" />
 
-    <project name="vendor_xiaomi_peridot" path="vendor/xiaomi/peridot" remote="halcyon-blobs" revision="16.2" />
-    <project name="vendor_xiaomi_peridot-miuicamera" path="vendor/xiaomi/peridot-miuicamera" remote="halcyon-blobs" revision="16.2" />
+    <project name="vendor_xiaomi_peridot" path="vendor/xiaomi/peridot" remote="halcyon-blobs" />
+    <project name="vendor_xiaomi_peridot-miuicamera" path="vendor/xiaomi/peridot-miuicamera" remote="halcyon-blobs" />
 
     <!-- Misc Dependencies -->
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->

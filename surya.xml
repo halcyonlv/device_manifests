@@ -15,5 +15,5 @@
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
     <project name="plrine/android_device_xiaomi_miuicamera-surya" path="device/xiaomi/miuicamera-surya" remote="github" revision="16.2" />
     <project name="vendor_xiaomi_surya" path="vendor/xiaomi/miuicamera-surya" remote="halcyon-blobs" revision="miuicamera-surya" />
-    <project name="LineageOS/android_hardware_xiaomi" path="hardware/xiaomi" remote="github" revision="lineage-23.2" />
+    <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="lineage" />
 </manifest>
