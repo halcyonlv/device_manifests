@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <remote name="los"
+            fetch="https://github.com/LineageOS"
+            revision="lineage-23.2" />
+
+    <remote name="halcyon-selfhost"
+            fetch="https://git.hlcyn.org"
+            revision="16.2" />
+
+    <!-- device/ -->
+        <!-- samsung/ -->
+        <project path="device/samsung/r8q" name="halcyonlv/device_samsung_r8q" remote="github" revision="16.2" />
+        <project path="device/samsung/sm8250-common" name="halcyonlv/device_samsung_sm8250-common" remote="github" revision="16.2" />
+
+    <!-- hardware/ -->
+        <!-- samsung/ -->
+        <project path="hardware/samsung" name="hardware_samsung" remote="halcyon" revision="16.2" />
+        <project path="hardware/samsung/nfc" name="hardware_samsung_nfc" remote="los" />
+
+        <!-- samsung_slsi/ -->
+        <project path="hardware/samsung_slsi/nfc" name="hardware_samsung_slsi_nfc" remote="halcyon" revision="16.2" />
+
+    <!-- kernel/ -->
+        <!-- samsung -->
+        <project path="kernel/samsung/sm8250" name="halcyonlv/kernel_samsung_sm8250" remote="github" revision="16.2" />
+
+    <!-- vendor/ -->
+        <!-- samsung/ -->
+        <project path="vendor/samsung/r8q" name="halcyonlv/vendor_samsung_r8q" remote="halcyon-selfhost" />
+        <project path="vendor/samsung/sm8250-common" name="halcyonlv/vendor_samsung_sm8250-common" remote="halcyon-selfhost" />
+</manifest>
+
