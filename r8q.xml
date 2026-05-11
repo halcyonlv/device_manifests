@@ -14,7 +14,6 @@
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
     <project path="hardware/samsung" name="hardware_samsung" remote="halcyon" />
-    <project path="hardware/samsung/nfc" name="android_hardware_samsung_nfc" remote="lineage" />
     <project path="hardware/samsung_slsi/nfc" name="hardware_samsung_slsi_nfc" remote="halcyon" />
 
 </manifest>
