@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Infinix HOT 40 Pro (X6837) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_infinix_X6837" path="device/infinix/X6837" remote="halcyon-device" />
+    <project name="device_infinix_X6837-kernel" path="device/infinix/X6837-kernel" remote="halcyon-device" />
+    <project name="vendor_infinix_X6837" path="vendor/infinix/X6837" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_mediatek" path="hardware/mediatek" remote="halcyon" revision="16.2" />
+    <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" revision="16.2" />
+    <project name="vendor_mediatek_ims" path="vendor/mediatek/ims" remote="halcyon-blobs" />
+</manifest>
