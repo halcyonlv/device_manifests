@@ -8,10 +8,6 @@
             fetch="https://github.com/LineageOS"
             revision="lineage-23.2" />
 
-    <remote name="halcyon-blobs"
-            fetch="https://git.hlcyn.org"
-            revision="16.2" />
-
     <!-- device/ -->
         <!-- samsung/ -->
         <project path="device/samsung/m34x" name="halcyonlv/device_samsung_m34x" remote="github" revision="16.2" />
@@ -45,7 +41,7 @@
 
     <!-- vendor/ -->
         <!-- samsung/ -->
-        <project path="vendor/samsung/m34x" name="halcyonlv/vendor_samsung_m34x" remote="halcyon-blobs" />
-        <project path="vendor/samsung/s5e8825-common" name="halcyonlv/vendor_samsung_s5e8825-common" remote="halcyon-blobs" />
+        <project path="vendor/samsung/m34x" name="vendor_samsung_m34x" remote="halcyon-blobs" />
+        <project path="vendor/samsung/s5e8825-common" name="vendor_samsung_s5e8825-common" remote="halcyon-blobs" />
 </manifest>
 
