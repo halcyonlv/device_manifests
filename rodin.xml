@@ -5,8 +5,10 @@
     <!-- Device core repos -->
     <!-- Must be pushed into Halcyon organisation without exception -->
     <project name="device_xiaomi_rodin" path="device/xiaomi/rodin" remote="halcyon-device" />
+    <project name="device_xiaomi_rodin-miuicamera" path="device/xiaomi/rodin-miuicamera" remote="halcyon-device" />
     <project name="device_xiaomi_rodin-kernel" path="device/xiaomi/rodin-kernel" remote="halcyon-device" />
     <project name="vendor_xiaomi_rodin" path="vendor/xiaomi/rodin" remote="halcyon-blobs" />
+    <project name="vendor_xiaomi_rodin-miuicamera" path="vendor/xiaomi/rodin-miuicamera" remote="halcyon-blobs" />
 
     <!-- Misc Dependencies -->
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
