@@ -42,8 +42,8 @@
 
     <!-- packages/ -->
         <!-- apps/ -->
-        <project path="packages/apps/PhhIms" name="krazey/ims" remote="halcyon" />
-        <project path="packages/apps/PhhIms/app/jni/rnnoise" name="amikhasenko/rnnoise" remote="halcyon" />
+        <project path="packages/apps/PhhIms" name="packages_apps_PhhIms" remote="halcyon" />
+        <project path="packages/apps/PhhIms/app/jni/rnnoise" name="packages_apps_PhhIms_app_jni_rnnoise" remote="halcyon" />
 
     <!-- vendor/ -->
         <!-- samsung/ -->
