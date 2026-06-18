@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Redmi Note 13 Pro 4G / Poco M6 Pro 4G (emerald) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_xiaomi_emerald" path="device/xiaomi/emerald" remote="halcyon-device" />
+    <project name="device_xiaomi_emerald-kernel" path="device/xiaomi/emerald-kernel" remote="halcyon-device" />
+    <project name="vendor_xiaomi_emerald" path="vendor/xiaomi/emerald" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
+    <project name="hardware_mediatek" path="hardware/mediatek" remote="halcyon" />
+    <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" />
+    <project name="vendor_mediatek_ims" path="vendor/mediatek/ims" remote="halcyon-blobs" />
+</manifest>
