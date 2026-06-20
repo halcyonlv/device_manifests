@@ -14,6 +14,6 @@
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
     <project name="device_xiaomi_miuicamera-surya" path="device/xiaomi/miuicamera-surya" remote="halcyon-device" />
-    <project name="vendor_xiaomi_surya" path="vendor/xiaomi/miuicamera-surya" remote="halcyon-blobs" revision="miuicamera-surya" />
+    <project name="vendor_xiaomi_miuicamera-surya" path="vendor/xiaomi/miuicamera-surya" remote="halcyon-blobs" />
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
 </manifest>
