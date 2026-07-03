@@ -16,6 +16,5 @@
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
     <project name="xyzuniverse/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="16.2" />
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" />
-    <project name="vendor_mediatek_ims" path="vendor/mediatek/ims" remote="halcyon-blobs" />
-    <project name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" path="packages/apps/DolbyAtmos" remote="github" revision="sixteen-qpr2" />
+    <project name="packages_halcyon_apps_Dolby" path="packages/apps/HalcyonDolby" remote="halcyon" />
 </manifest>
