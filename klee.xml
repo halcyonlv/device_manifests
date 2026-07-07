@@ -8,7 +8,7 @@
     <project name="device_xiaomi_klee-miuicamera" path="device/xiaomi/klee-miuicamera" remote="halcyon-device" />
     <project name="device_xiaomi_klee-kernel" path="device/xiaomi/klee-kernel" remote="halcyon-device" />
     <project name="vendor_xiaomi_klee" path="vendor/xiaomi/klee" remote="halcyon-blobs" />
-    <project name="vendor_xiaomi_klee-miuicamera" path="vendor/xiaomi/klee-miuicamera" remote="halcyon-device" />
+    <project name="vendor_xiaomi_klee-miuicamera" path="vendor/xiaomi/klee-miuicamera" remote="halcyon-blobs" />
 
     <!-- Misc Dependencies -->
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
