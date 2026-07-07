@@ -5,14 +5,16 @@
     <!-- Device core repos -->
     <!-- Must be pushed into Halcyon organisation without exception -->
     <project name="device_xiaomi_klee" path="device/xiaomi/klee" remote="halcyon-device" />
+    <project name="device_xiaomi_klee-miuicamera" path="device/xiaomi/klee-miuicamera" remote="halcyon-device" />
     <project name="device_xiaomi_klee-kernel" path="device/xiaomi/klee-kernel" remote="halcyon-device" />
     <project name="vendor_xiaomi_klee" path="vendor/xiaomi/klee" remote="halcyon-blobs" />
+    <project name="vendor_xiaomi_klee-miuicamera" path="vendor/xiaomi/klee-miuicamera" remote="halcyon-device" />
 
     <!-- Misc Dependencies -->
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
-    <project name="xyzuniverse/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="16.2" />
+    <project name="Cilok-LAB/android_hardware_mediatek" path="hardware/mediatek" remote="github" revision="bellflower" />
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" />
     <project name="PixelOS-AOSP/android_packages_apps_DolbyAtmos" path="packages/apps/DolbyAtmos" remote="github" revision="sixteen-qpr2" />
 </manifest>
