@@ -15,6 +15,4 @@
     <project name="hardware_samsung" path="hardware/samsung" remote="halcyon" revision="16.2" />
     <project name="hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="halcyon" revision="16.2" />
     <project name="frstprjkt/hardware_samsung-extra_interfaces" path="hardware/samsung-ext/interfaces" remote="github" revision="16" />
-    <project name="packages_apps_PhhIms" path="packages/apps/PhhIms" remote="halcyon" revision="16.2" />
-    <project name="packages_apps_PhhIms_app_jni_rnnoise" path="packages/apps/PhhIms/app/jni/rnnoise" remote="halcyon" revision="16.2" />
 </manifest>
