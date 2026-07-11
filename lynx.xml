@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Google Pixel 7a (lynx) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_google_lynx" path="device/google/lynx" remote="halcyon-device" />
+    <project name="device_google_lynx-kernels" path="device/google/lynx-kernels" remote="halcyon-device" />
+    <project name="vendor_google_lynx" path="vendor/google/lynx" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="device_google_gs201" path="device/google/gs201" remote="halcyon-device" />
+    <project name="device_google_gs-common" path="device/google/gs-common" remote="halcyon-device" />
+</manifest>
