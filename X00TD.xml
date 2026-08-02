@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Asus Zenfone Max Pro M1 Device Manifest for Halcyon 16.2 -->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_asus_X00TD" path="device/asus/X00TD" remote="halcyon-device" />
+    <project name="kernel_asus_X00TD" path="kernel/asus/X00TD" remote="halcyon-device" />
+    <project name="vendor_asus_X00TD" path="vendor/asus/X00TD" remote="halcyon-blobs" />
+    <project name="vendor_asus_AsusCamera" path="vendor/asus/AsusCamera" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+</manifest>
