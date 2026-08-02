@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Xiaomi Mi 6X (wayne) Device Manifest for Halcyon 16.2 -->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_xiaomi_wayne" path="device/xiaomi/wayne" remote="halcyon-device" />
+    <project name="device_xiaomi_wayne-common" path="device/xiaomi/wayne-common" remote="halcyon-device" />
+    <project name="device_xiaomi_sdm660-common" path="device/xiaomi/sdm660-common" remote="halcyon-device" />
+    <project name="kernel_xiaomi_sdm660" path="kernel/xiaomi/sdm660" remote="halcyon-device" />
+    <project name="vendor_xiaomi_wayne" path="vendor/xiaomi/wayne" remote="halcyon-blobs" />
+    <project name="vendor_xiaomi_wayne-common" path="vendor/xiaomi/wayne-common" remote="halcyon-blobs" />
+    <project name="vendor_xiaomi_sdm660-common" path="vendor/xiaomi/sdm660-common" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
+</manifest>
