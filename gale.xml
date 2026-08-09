@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Xiaomi Redmi 13C/Poco C65 Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_xiaomi_gale" path="device/xiaomi/gale" remote="halcyon-device" />
+    <project name="kernel_xiaomi_gale" path="kernel/xiaomi/gale" remote="halcyon-device" />
+    <project name="vendor_xiaomi_gale" path="vendor/xiaomi/gale" remote="halcyon-device" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
+    <project name="hardware_mediatek" path="hardware/mediatek" remote="halcyon" />
+    <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" />
+    <project name="techyminati/android_vendor_mediatek_ims" path="vendor/mediatek/ims" remote="github" revision="android-16-qpr2" />
+</manifest>
