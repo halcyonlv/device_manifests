@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Motorola Moto E7 Plus (guam) Device Manifest for Halcyon 16.2 -->
+
+    <!-- Core device repositories -->
+    <!-- Must be pushed into the Halcyon organizations without exception -->
+    <project name="device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="halcyon-device" />
+    <project name="device_motorola_guam" path="device/motorola/guam" remote="halcyon-device" />
+
+    <!-- Kernel source tree -->
+    <project name="kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="halcyon-device" />
+    
+    <!-- Vendor repositories -->
+    <project name="vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="halcyon-blobs" />
+    <project name="vendor_motorola_guam" path="vendor/motorola/guam" remote="halcyon-blobs" />
+
+    <!-- Miscellaneous dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_motorola" path="hardware/motorola" remote="halcyon" />
+</manifest>
