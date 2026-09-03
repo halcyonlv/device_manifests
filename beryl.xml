@@ -4,10 +4,10 @@
 
     <!-- Device core repos -->
     <!-- Must be pushed into Halcyon organisation without exception -->
-    <project name="device_xiaomi_beryl" path="device/xiaomi/beryl" remote="halcyon-device" revision="16.2-6.12" />
-    <project name="device_xiaomi_beryl-kernel" path="device/xiaomi/beryl-kernel" remote="halcyon-device" revision="16.2-6.12"  />
+    <project name="device_xiaomi_beryl" path="device/xiaomi/beryl" remote="halcyon-device" />
+    <project name="device_xiaomi_beryl-kernel" path="device/xiaomi/beryl-kernel" remote="halcyon-device" />
 
-    <project name="vendor_xiaomi_beryl" path="vendor/xiaomi/beryl" remote="halcyon-blobs" revision="16.2-6.12" />
+    <project name="vendor_xiaomi_beryl" path="vendor/xiaomi/beryl" remote="halcyon-blobs" />
     <project name="vendor_mediatek_ims" path="vendor/mediatek/ims" remote="halcyon-blobs" />
 
     <project name="hardware_mediatek" path="hardware/mediatek" remote="halcyon" />
