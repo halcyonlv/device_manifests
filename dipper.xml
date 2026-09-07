@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Xiaomi Mi 8 (dipper) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project path="device/xiaomi/dipper" name="device_xiaomi_dipper" remote="halcyon-device" />
+    <project path="device/xiaomi/sdm845-common" name="device_xiaomi_sdm845-common" remote="halcyon-device" />
+    <project path="kernel/xiaomi/sdm845" name="kernel_xiaomi_sdm845" remote="halcyon-device" />
+    <project path="vendor/xiaomi/sdm845-common" name="vendor_xiaomi_sdm845-common" remote="halcyon-blobs" />
+    <project path="vendor/xiaomi/dipper" name="vendor_xiaomi_dipper" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
+</manifest>
