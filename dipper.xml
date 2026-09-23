@@ -14,4 +14,6 @@
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
+    <project name="device_xiaomi_miuicamera-dipper" path="device/xiaomi/miuicamera-dipper" remote="halcyon-device" />
+    <project name="vendor_xiaomi_miuicamera-dipper" path="vendor/xiaomi/miuicamera-dipper" remote="halcyon-blobs" />
 </manifest>
