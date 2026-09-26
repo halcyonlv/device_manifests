@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Google Pixel 7 (panther) Device Manifest for Halcyon 16.2-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project name="device_google_pantah" path="device/google/pantah" remote="halcyon-device" />
+    <project name="device_google_pantah-kernels" path="device/google/pantah-kernels" remote="halcyon-device" />
+    <project name="vendor_google_panther" path="vendor/google/panther" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="device_google_gs201" path="device/google/gs201" remote="halcyon-device" />
+    <project name="device_google_gs-common" path="device/google/gs-common" remote="halcyon-device" />
+</manifest>
