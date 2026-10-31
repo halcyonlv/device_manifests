@@ -15,6 +15,5 @@
     <project name="hardware_mediatek" path="hardware/mediatek" remote="halcyon" />
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" />
     <project name="vendor_mediatek_ims" path="vendor/mediatek/ims" remote="halcyon-blobs" />
-    
-    <project name="packages_halcyon_apps_FMRadio" path="packages/halcyon/apps/FMRadio" remote="halcyon" />
+
 </manifest>

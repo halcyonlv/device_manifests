@@ -14,7 +14,6 @@
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
     <project name="device_mediatek_sepolicy_vndr" path="device/mediatek/sepolicy_vndr" remote="halcyon" />
 
-    <project name="packages_halcyon_apps_FMRadio" path="packages/halcyon/apps/FMRadio" remote="halcyon" />
     <project name="packages_halcyon_apps_Dolby" path="packages/halcyon/apps/Dolby" remote="halcyon" />
 
     <!-- Misc Dependencies -->

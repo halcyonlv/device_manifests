@@ -13,5 +13,4 @@
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
     <project name="vendor_xiaomi_miuicamera-surya" path="vendor/xiaomi/miuicamera-surya" remote="halcyon-blobs" />
     <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
-    <project name="packages_halcyon_apps_FMRadio" path="packages/halcyon/apps/FMRadio" remote="halcyon" />
 </manifest>
