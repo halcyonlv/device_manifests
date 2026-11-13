@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Motorola Moto G52 (rhode) Device Manifest for Halcyon 17.0 -->
+
+    <!-- Core device repositories -->
+    <!-- Must be pushed into the Halcyon organizations without exception -->
+    <project name="device_motorola_sm6225-common" path="device/motorola/sm6225-common" remote="halcyon-device" />
+    <project name="device_motorola_rhode" path="device/motorola/rhode" remote="halcyon-device" />
+
+    <!-- Kernel source tree -->
+    <project name="kernel_motorola_sm6225" path="kernel/motorola/sm6225" remote="halcyon-device" />
+
+    <!-- Vendor repositories -->
+    <project name="vendor_motorola_sm6225-common" path="vendor/motorola/sm6225-common" remote="halcyon-blobs" />
+    <project name="vendor_motorola_rhode" path="vendor/motorola/rhode" remote="halcyon-blobs" />
+
+    <!-- Miscellaneous dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_motorola" path="hardware/motorola" remote="halcyon" />
+    <project name="packages_halcyon_apps_Dolby" path="packages/halcyon/apps/Dolby" remote="halcyon" />
+</manifest>
