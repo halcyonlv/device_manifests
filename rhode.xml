@@ -18,5 +18,6 @@
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
     <project name="hardware_motorola" path="hardware/motorola" remote="halcyon" />
+    <project name="hardware_samsung_slsi_nfc" path="hardware/samsung_slsi/nfc" remote="halcyon" />
     <project name="packages_halcyon_apps_Dolby" path="packages/halcyon/apps/Dolby" remote="halcyon" />
 </manifest>
