@@ -12,5 +12,4 @@
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
     <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
     <project name="device_google_gs201" path="device/google/gs201" remote="halcyon-device" />
-    <project name="device_google_gs-common" path="device/google/gs-common" remote="halcyon-device" />
 </manifest>
