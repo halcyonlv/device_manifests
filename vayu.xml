@@ -9,7 +9,7 @@
     <project path="kernel/xiaomi/sm8150" name="kernel_xiaomi_sm8150" remote="halcyon-device" />
     <project path="vendor/xiaomi/sm8150-common" name="vendor_xiaomi_sm8150-common" remote="halcyon-blobs" />
     <project path="vendor/xiaomi/vayu" name="vendor_xiaomi_vayu" remote="halcyon-blobs" />
-    <project path="vendor/xiaomi/vayu-miuicamera" name="vendor_xiaomi_vayu-miuicamera" remote="halcyon-blobs" />
+    <project path="vendor/xiaomi/miuicamera-vayu" name="vendor_xiaomi_miuicamera-vayu" remote="halcyon-blobs" />
 
     <!-- Misc Dependencies -->
     <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
