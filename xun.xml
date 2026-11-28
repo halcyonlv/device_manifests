@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+    <!-- Redmi Pad SE (xun) Device Manifest for Halcyon 17.0-->
+
+    <!-- Device core repos -->
+    <!-- Must be pushed into Halcyon organisation without exception -->
+    <project path="device/xiaomi/xun" name="device_xiaomi_xun" remote="halcyon-device" />
+    <project path="device/xiaomi/xun-kernel" name="device_xiaomi_xun-kernel" remote="halcyon-device" />
+    <project path="vendor/xiaomi/xun" name="vendor_xiaomi_xun" remote="halcyon-blobs" />
+
+    <!-- Misc Dependencies -->
+    <!-- Temporarily allowed to fetch misc deps outside of halcyon remotes -->
+    <!-- Once everything is merged to halcyon remotes, external remotes WILL NOT BE ALLOWED -->
+    <project name="hardware_xiaomi" path="hardware/xiaomi" remote="halcyon" />
+    <project name="packages_halcyon_apps_Dolby" path="packages/halcyon/apps/Dolby" remote="halcyon" />
+</manifest>
